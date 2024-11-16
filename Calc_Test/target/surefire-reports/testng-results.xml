@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-16T17:00:38 MSK" name="Surefire suite" finished-at="2024-11-16T17:01:02 MSK" duration-ms="23968">
+    <groups>
+    </groups>
+    <test started-at="2024-11-16T17:00:38 MSK" name="Surefire test" finished-at="2024-11-16T17:01:02 MSK" duration-ms="23968">
+      <class name="CalcTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:38 MSK" name="setUp" finished-at="2024-11-16T17:00:38 MSK" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openCalc()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:39 MSK" name="openCalc" finished-at="2024-11-16T17:00:46 MSK" duration-ms="7616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalc -->
+        <test-method signature="backTest()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:46 MSK" name="backTest" description="Тестирование функции последовательного стирания" finished-at="2024-11-16T17:00:48 MSK" duration-ms="1989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backTest -->
+        <test-method is-config="true" signature="openCalc()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:48 MSK" name="openCalc" finished-at="2024-11-16T17:00:49 MSK" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalc -->
+        <test-method signature="clearTest()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:49 MSK" name="clearTest" description="Тестирование кнопки С (Clear)" finished-at="2024-11-16T17:00:49 MSK" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearTest -->
+        <test-method is-config="true" signature="openCalc()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:49 MSK" name="openCalc" finished-at="2024-11-16T17:00:50 MSK" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalc -->
+        <test-method signature="floatTest()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:50 MSK" name="floatTest" description="Тестирование работы с числами с точкой" finished-at="2024-11-16T17:00:51 MSK" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- floatTest -->
+        <test-method is-config="true" signature="openCalc()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:51 MSK" name="openCalc" finished-at="2024-11-16T17:00:51 MSK" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalc -->
+        <test-method signature="negativeNumTest()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:51 MSK" name="negativeNumTest" description="Тестирование работы с отрицательными числами" finished-at="2024-11-16T17:00:52 MSK" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeNumTest -->
+        <test-method is-config="true" signature="openCalc()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:52 MSK" name="openCalc" finished-at="2024-11-16T17:00:53 MSK" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalc -->
+        <test-method signature="numButtonTest()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:53 MSK" name="numButtonTest" description="Тестирование цифровых кнопок" finished-at="2024-11-16T17:00:54 MSK" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numButtonTest -->
+        <test-method is-config="true" signature="openCalc()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:54 MSK" name="openCalc" finished-at="2024-11-16T17:00:54 MSK" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalc -->
+        <test-method signature="operationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:54 MSK" name="operationTest" description="Тестирование элементарных операций" data-provider="calcData" finished-at="2024-11-16T17:00:55 MSK" duration-ms="664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationTest -->
+        <test-method is-config="true" signature="openCalc()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:55 MSK" name="openCalc" finished-at="2024-11-16T17:00:56 MSK" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalc -->
+        <test-method signature="operationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:56 MSK" name="operationTest" description="Тестирование элементарных операций" data-provider="calcData" finished-at="2024-11-16T17:00:57 MSK" duration-ms="1027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationTest -->
+        <test-method is-config="true" signature="openCalc()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:57 MSK" name="openCalc" finished-at="2024-11-16T17:00:57 MSK" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalc -->
+        <test-method signature="operationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:57 MSK" name="operationTest" description="Тестирование элементарных операций" data-provider="calcData" finished-at="2024-11-16T17:00:58 MSK" duration-ms="700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[*]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationTest -->
+        <test-method is-config="true" signature="openCalc()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:58 MSK" name="openCalc" finished-at="2024-11-16T17:00:58 MSK" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalc -->
+        <test-method signature="operationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:58 MSK" name="operationTest" description="Тестирование элементарных операций" data-provider="calcData" finished-at="2024-11-16T17:00:59 MSK" duration-ms="719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationTest -->
+        <test-method is-config="true" signature="openCalc()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:59 MSK" name="openCalc" finished-at="2024-11-16T17:00:59 MSK" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalc -->
+        <test-method signature="operationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:00:59 MSK" name="operationTest" description="Тестирование элементарных операций" data-provider="calcData" finished-at="2024-11-16T17:01:00 MSK" duration-ms="715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationTest -->
+        <test-method is-config="true" signature="openCalc()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:01:00 MSK" name="openCalc" finished-at="2024-11-16T17:01:00 MSK" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalc -->
+        <test-method signature="powTest()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:01:00 MSK" name="powTest" description="Тестирование функции возведения в квадрат" finished-at="2024-11-16T17:01:01 MSK" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powTest -->
+        <test-method is-config="true" signature="openCalc()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:01:01 MSK" name="openCalc" finished-at="2024-11-16T17:01:01 MSK" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalc -->
+        <test-method signature="streamTest()[pri:0, instance:CalcTest@48ae9b55]" started-at="2024-11-16T17:01:01 MSK" name="streamTest" description="Тестирование потока действий" finished-at="2024-11-16T17:01:02 MSK" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- streamTest -->
+      </class> <!-- CalcTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
