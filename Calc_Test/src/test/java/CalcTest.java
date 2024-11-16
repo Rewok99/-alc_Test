@@ -1,7 +1,10 @@
 import com.codeborne.selenide.Configuration;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.open;
 /*
 Путем ручного тестирования было определено что для расчетов используется формат double
@@ -121,4 +124,8 @@ public class CalcTest {
         calculatorPage.shouldDisplay("9");
     }
 
+    @AfterClass
+    public static void tearDown() {
+        closeWebDriver();
+    }
 }
